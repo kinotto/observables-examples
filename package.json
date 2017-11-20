@@ -1,0 +1,18 @@
+{
+  "name": "observables-examples",
+  "author": "karim",
+  "version": "1.0.0",
+  "description": "a collection of examples of rxjs library",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
