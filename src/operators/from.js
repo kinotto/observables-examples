@@ -1,7 +1,7 @@
 module.exports = (rx, createSubscriber) => {
     
     const Observable = rx.Observable;
-    //.from (as opposed to .of) requires an iterable like  eg. string or an array
+    //.from (as opposed to .of) requires an iterable  eg. string or an array
     Observable.from('whatever')
     .subscribe(createSubscriber('$from1'))
 

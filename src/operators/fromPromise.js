@@ -2,7 +2,6 @@ module.exports = (rx, createSubscriber) => {
     const Observable = rx.Observable;
     let myPromise = () => {
         return new Promise((resolve) => {
-            console.log('ciaooooooooooooooooooooooooo')
             setTimeout(() => { resolve('promise done')}, 200);
         })
     }

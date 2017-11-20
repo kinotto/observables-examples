@@ -1,3 +1,6 @@
+/**
+ * creates a custom subscription object
+ */
 module.exports = (type) => {     
     return {
         next: el => console.log(`next ${type} - ${typeof(el) === 'object' ? JSON.stringify(el) : el}`),
